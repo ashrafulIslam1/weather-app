@@ -1,0 +1,49 @@
+body{
+    background-image:url(sky.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin: 30px auto;
+    text-align: center;
+}
+
+#city{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+#temp{
+    color: rgb(255, 255, 255);
+    font-size: 95px;
+    line-height: 40px;
+}
+
+#des{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    line-height: 20px;
+}
+
+#input-btn{
+    width: 335px;
+    height: 30px;
+    border-radius: 5px;
+    border-color:black
+
+}
+
+#submit-btn{
+    background-color: rgb(245, 73, 73);
+    height: 35px;
+    border-radius: 5px;
+    border-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+#submit-btn:hover{
+   color: black;
+}
+
