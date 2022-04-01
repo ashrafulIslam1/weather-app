@@ -3,12 +3,18 @@ body{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
+
 }
 .container{
     margin: 30px auto;
     text-align: center;
 }
-
+.weather{
+    font-size: 55px; 
+    color:rgb(81, 247, 75); 
+    text-align: center; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #city{
     color: rgb(255, 255, 255);
     font-size: 35px;
@@ -25,25 +31,67 @@ body{
     font-size: 55px;
     line-height: 20px;
 }
-
-#input-btn{
-    width: 335px;
-    height: 30px;
-    border-radius: 5px;
-    border-color:black
-
-}
-
 #submit-btn{
     background-color: rgb(245, 73, 73);
-    height: 35px;
+    height: 41px;
+    width: 75px;
     border-radius: 5px;
     border-color: black;
     color: white;
     transition: 0.2s;
+    font-size: 15px;
 }
 
 #submit-btn:hover{
    color: black;
+}
+input[type="text"]
+{
+    padding-left: 15px;
+    width: 335px;
+    height: 35px;
+    border-radius: 5px;
+    border-color:black
+}
+#maxtemp{
+    margin-left: 20px;
+}
+@media (min-width: 329px) and (max-width:400px){
+    input[type="text"]
+    {
+        width: 290px;
+    }
+    .weather{
+        font-size: 45px;
+    }
+    #des{
+        font-size: 45px;
+    }
+}
+@media(max-width:328px){
+    input[type="text"]
+    {
+        width: 255px;
+    }
+    #submit-btn{
+        height: 35px;
+        width: 70px;
+    }
+    .weather{
+        font-size: 40px;
+    }
+    #des{
+        font-size: 46px;
+    }
+    #mintemp{
+        font-size: 28px;
+    }
+    #maxtemp{
+        font-size: 28px;
+        
+    }
+    #des{
+        font-size: 40px;
+    }
 }
 
